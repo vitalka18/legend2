@@ -1024,6 +1024,9 @@ table {
     height: 40px;
     position: relative;
 }
+.b-results-table .b-results-table-divider td {
+    padding: 10px 0 0 0;
+}
 .b-results-table a.b-results-table-link {
     position: absolute;
     width: 100%;
@@ -1040,6 +1043,10 @@ table {
     background: #faf9f8;
     font-size: 14px;
     border: 2px solid #00aeef;
+    opacity: 1;
+}
+.b-results-table a.b-results-table-link:hover{
+    opacity: 1;
 }
 .b-results-table a {
     color: #555555;
